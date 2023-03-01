@@ -1,0 +1,11 @@
+Instalação de COCOAPODS em projeto
+
+Instalação
+sudo gem install cocoapods
+
+
+Inicializando no projeto
+pod init
+
+
+https://cocoapods.org/
