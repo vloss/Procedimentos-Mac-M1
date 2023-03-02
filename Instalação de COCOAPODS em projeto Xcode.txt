@@ -1,11 +1,19 @@
 Instalação de COCOAPODS em projeto
 
-Instalação
-sudo gem install cocoapods
+1 - Instalação
+	sudo gem install cocoapods
 
 
-Inicializando no projeto
-pod init
+2 - Inicializando no projeto
+	pod init
+
+3 - Incluir dependencias no arquivo Podfile
+
+4 - Executar instalação de dependencias
+	pod install
+
+5 - Abrir Workspace do projeto 
+	App.xcworkspace
 
 
 https://cocoapods.org/
