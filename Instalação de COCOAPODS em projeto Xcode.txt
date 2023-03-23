@@ -1,18 +1,23 @@
 Instalação de COCOAPODS em projeto
 
-1 - Instalação
-	sudo gem install cocoapods
+1 - Instalação: Abrir terminal na pasta do projeto.
+	[cd + caminho do projeto, pode-se arrastar pasta do projeto para facilitar]
+	
+2 - Execucar comando: sudo gem install cocoapods
 
-
-2 - Inicializando no projeto
+3 - Ainda na pasta do projeto, criar arquivo: Podfile, com o comando:
 	pod init
 
-3 - Incluir dependencias no arquivo Podfile
+4 - Incluir dependencias no arquivo Podfile, após linha "# Pods for deepControl Home Care"
 
-4 - Executar instalação de dependencias
+  pod 'Alamofire'               # HTTP networking library - https://github.com/Alamofire/Alamofire
+  pod 'Kingfisher', '~> 7.0'    # Download e cache de imagens - https://github.com/onevcat/Kingfisher
+  pod 'SwiftHash'               # Para gerar MD5 - https://github.com/onmyway133/SwiftHash
+
+5 - Executar instalação de dependencias
 	pod install
 
-5 - Abrir Workspace do projeto 
+6 - Abrir Workspace do projeto 
 	App.xcworkspace
 
 
