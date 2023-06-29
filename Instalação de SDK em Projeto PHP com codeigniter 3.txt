@@ -11,4 +11,6 @@ Baixe o Composer se ainda não estiver instalado
 
 	3 - Execute na linha de comando [composer require "mercadopago/dx-php:2.5.3"] para PHP7 (sem os colchetes) ou [composer require "mercadopago/dx-php:1.12.5"] para PHP5.6
 
+	4 - Copie o access_token na seção de credenciais da página e substitua YOUR_ACCESS_TOKEN por ele
+
 
