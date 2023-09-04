@@ -1,0 +1,19 @@
+https://ed.blog.br/como-instalar-o-docker-no-macos-2021/
+
+Baixar Docker
+https://www.docker.com/
+
+Reiniciar o computador após intalação;
+
+Testando a instalação
+docker run --name http-server -p 8080:80 nginx:latest
+Abra seu browser e navegue no endereço: http://localhost:8080
+
+
+
+# Lista os Containers ativos
+docker ps
+
+
+# Lista todos Containers
+docker ps -a
