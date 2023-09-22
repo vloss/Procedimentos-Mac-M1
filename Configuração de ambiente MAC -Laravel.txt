@@ -1,0 +1,23 @@
+Configuração de ambiente MAC:
+
+
+Instalar PHP
+Instalar Homebrew
+Instalar Laravel
+
+
+
+Criar Projeto em Laravel
+composer create-project laravel/laravel example-app
+
+Acessa projeto
+cd example-app
+ 
+Roda projeto
+php artisan serve
+
+Criar Controller
+php artisan make:controller NomeController
+
+
+Sobre os valores da Landing page, para
