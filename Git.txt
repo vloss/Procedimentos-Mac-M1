@@ -1,0 +1,66 @@
+Configurando no computador
+ git config --global user.name "Vinicius Loss"
+ git config --global user.email "viniciusvianaloss@gmail.com"
+
+Ver configurações
+git config --list
+
+
+Criando diretorio e iniciando Git
+mkdir git-course
+
+git init 
+
+Listando diretório do Git
+ ls -la	
+
+Acessando pasta do git
+cd .git
+ls 
+
+Visualizando o Status
+git status
+
+Adicionando arquivos ao Commit
+git add Readme.md
+
+Commit
+Git commit -m "Mensagem"
+
+
+Log
+git log
+
+git log --decorate [Mostra mais informações Branch e Master]
+git log --author="Vinicius" [Pesquisa por autor]
+git shortlog [Mostra os comias de cada usuario]
+git shortlog -sn [Quantidade de commits]
+
+
+Visualizando diferenças
+git diff
+git diff --name-only [Mostra a lista de arquivos modificados]
+
+
+Resetando modificação antes de comitar
+git checkout Readme.md 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
