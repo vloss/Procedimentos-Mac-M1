@@ -25,7 +25,10 @@ Adicionando arquivos ao Commit
 git add Readme.md
 
 Commit
-Git commit -m "Mensagem"
+git commit -m "Mensagem"
+
+Commitando todos arquivos
+git commit -am "Mensagem"
 
 
 Log
@@ -37,7 +40,7 @@ git shortlog [Mostra os comias de cada usuario]
 git shortlog -sn [Quantidade de commits]
 
 
-Visualizando diferenças
+Visualizando diferenças [antes do git add]
 git diff
 git diff --name-only [Mostra a lista de arquivos modificados]
 
@@ -46,7 +49,14 @@ Resetando modificação antes de comitar
 git checkout Readme.md 
 
 
+Removendo o Arquivo da fila Unstaged
+git reset HEAD Readme.md
 
+
+Removendo arquivos depois de comitado [Passar hash do commit que deseja voltar]
+git reset --soft hash [Retornar para antes do commit, pronto para commitar]
+git reset --mixed hash [Retorna para modifed]
+git reset --hard hash [Ignora o commit apagando]
 
 
 
