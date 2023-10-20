@@ -60,9 +60,27 @@ git reset --hard hash [Ignora o commit apagando]
 
 
 
+Acessando diretório da chave SSH 
+cd ~/.ssh/ [ls para listar]
+
+Capturando chave
+cat id_[id da chave].pub ou more id_[id da chave].pub
 
 
+Configurando chave da maquina no GitHub
+Acessar a chave publica da maquina
+Ir em configurações GitHub e adicionar a chave.
 
+
+Ligando repositório local a um remoto […or push an existing repository from the command line]
+Selecionar opção SSH [Quick setup — if you’ve done this kind of thing before]
+
+git remote add origin https://github.com/vloss/github-course.git 
+
+git remote
+
+Quando autenticação em dois fatores estivar ativa
+git remote add origin https://username:access-token@github.com/username/repo.git [Isso irá adicionar o token ao projeto]
 
 
 
