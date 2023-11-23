@@ -1,0 +1,12 @@
+Exemplos
+https://esp32io.com/tutorials/esp32-http-request
+
+Rodar ESP32 no MAC
+Select Tools > Board > esp32 > ESP32 Dev Module from the Arduino IDE menus.
+Select Tools > Upload Speed > 115200 from the Arduino IDE menus.
+
+Download IDE
+https://www.arduino.cc/en/software
+
+macOS - Apple Silicon, 11: “Big Sur” or newer, 64 bits
+https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_macOS_arm64.dmg?_gl=1*1vkzza6*_ga*MTk3NTU5NDYxOS4xNjk5NTg3NTAz*_ga_NEXN8H46L5*MTcwMDc2MDkxMS45LjEuMTcwMDc2NTg3Mi4wLjAuMA..*_fplc*NGVDaUxTOVdlRnBXcmlReG5nZTBuT2dOQkRJRTlHU2l0Qm5PcGNSWnBIRG5QVW5LU09SUTFKNk01JTJGVkF2N2tNWXMxdUtPUkRhWVNPSGJaMFhzRkhUNktDUnlIU1F2UU0lMkZpYmFrVFRhR3dYTTRaZDQxR3JwSGlRalFUWk9XZyUzRCUzRA..
